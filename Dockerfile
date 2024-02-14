@@ -8,7 +8,7 @@ RUN set -ex \
 
 # Install required packages
 # RUN pip install dbt-databricks
-RUN pip install bertopic
+RUN pip install langchain langchain-openai faiss-cpu
 
 # COPY ./dbt_env/ /root/.dbt/
 # COPY . /project

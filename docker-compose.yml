@@ -1,7 +1,7 @@
 version: '3'
 services:
-    topic_modeling:
-        image: topic_modeling:latest
+    topic_modelling:
+        image: topic_modelling:latest
         build:
             context: .
         volumes:
